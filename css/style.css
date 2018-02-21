@@ -1,0 +1,135 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    height: 76px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+   
+}
+
+nav ul{
+    float: right;
+    margin-right: 150px;
+    margin-top: 40px;
+}
+
+nav ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    padding-top: 276px;
+    padding-left: 223px;
+    background-image: url('../img/bkg1.jpg');
+
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+
+.textos{
+    width: 35%;
+    padding-top: 97px;
+    padding-left: 146px;
+    list-style-type: none;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.img{
+    width: 550px;
+    margin-top: 99px;
+    
+}
+
+.imagem{
+    float: right;
+    width: 50%;  
+}
+
+.frase{
+    font-size: 47px;
+    font-weight: bolder;
+    margin-bottom: -11px;
+
+
+}
+
+.topicos{
+    font-size: 23px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+}
+
+
+.logo{
+    width: 142px;
+    margin-left: 138px;
+    margin-top: 17px;
+}
+.slogan{
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-left: 158px;
+
+}
+
+.btn{
+    /* padding: 40px 20px 10px 60px; */
+    padding: 25px 20px;
+    border-radius: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 69px;
+}
+
+
+.btn-verde{
+    background-color: #1db954;
+    width: 440px;
+}
+
+.btn-branco{
+    background-color: rgba(0,0,0,0);
+    border: solid 2px white;
+    margin-left: 15px;
+    width: 420px;
+}
+
+.img-section3{
+    width: 100%;
+}
+
+
+.guia{
+    width: 100%;
+   z-index: -1;
+   position: absolute;
+   opacity: 0.5; 
+}
+
+
+
+
+
